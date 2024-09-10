@@ -1,3 +1,0 @@
-#include <map>
-#include <algorithm>
-template<class T,class U>void f(T,U u){std::vector<std::vector<T>>v;auto i=end(v);find(i,i,u);find(i,i,&u);U*p,**q,r(),s(U);find(i,i,&p);find(i,i,&q);find(i,i,r);find(i,i,&r);find(i,i,s);find(i,i,&s);}template<class T>void f(T t){f(t,0);f(t,0l);f(t,0u);f(t,0ul);f(t,0ll);f(t,.0);f(t,.0l);f(t,.0f);f(t,' ');f(t,L' ');f(t,u' ');f(t,U' ');f(t,"");f(t,L"");}int main(){f(0);f(0l);f(0u);f(0ul);f(0ll);f(.0);f(.0l);f(.0f);f(' ');f(L' ');f(u' ');f(U' ');f("");f(L"");f(u"");f(U"");}
